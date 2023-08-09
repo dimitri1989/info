@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: #EAE4E4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+ul{
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 200px;
+    
+}
+li{
+    list-style: none;
+    margin-right: 32px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.stalin img{
+    width: 800px;
+    height: 600px;
+}
+.right-text{
+    color: #000;
+    font-family: Jacques Francois;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 32px;
+    margin-bottom: 35px;
+}
+.text{
+    color: #000;
+    font-family: Jacques Francois;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    z-index: 20;
+    top: 91px;
+    left: 35px;
+}
+.text2{
+    position: relative;
+    z-index: 20;
+    top: 91px;
+    left: 35px; 
+    color: #000;
+    font-family: Jacques Francois;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    z-index: 20;
+    top: 91px;
+    left: 35px;
+}
